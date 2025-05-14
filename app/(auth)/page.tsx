@@ -15,10 +15,10 @@ const page = () => {
       <section>
         <div className="py-8 px-6 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 md:px-10">
           <h1 className="mt-4 lg:mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
-          Design Your Resume Smarter <span className="text-primary-700 max-sm:block"> With AI</span>
+          Build a Winning Resume Instantly <span className="text-primary-700 max-sm:block"> With AI</span>
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-48">
-            Effortlessly Craft a Professional Resume with Our AI-Powered Builder
+            Skip the hassle. Let our AI craft a polished, professional resume that gets noticed—fast.
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
@@ -26,7 +26,7 @@ const page = () => {
               className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
             >
               <span className="relative text-base font-semibold text-white ">
-                Get Started
+                Start for Free
               </span>
             </Link>
             <Link
@@ -34,7 +34,7 @@ const page = () => {
               className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-slate-200 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
             >
               <span className="relative text-base font-semibold text-primary">
-                Learn more
+                How It Works
               </span>
             </Link>
           </div>
@@ -45,7 +45,7 @@ const page = () => {
           How it Works?
         </h2>
         <h2 className="text-md text-gray-500">
-          Generate resume in just 3 steps
+          Create a resume in 3 easy steps
         </h2>
 
         <div className="mt-8 grid grid-cols-1 gap-8 text-center md:text-start md:grid-cols-2 lg:grid-cols-3 md:px-24">
@@ -53,13 +53,11 @@ const page = () => {
             <AtomIcon className="h-8 w-8" />
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Create Your Template
+              Choose a Template
             </h2>
 
             <p className="mt-1 text-sm text-gray-600 md:text-justify">
-              Start by selecting the color scheme for your resume template. Our
-              single, professionally designed template ensures a clean and
-              consistent look for all users.
+              Browse through a collection of clean, modern templates designed by professionals. Pick one that fits your style and industry—no design skills needed.
             </p>
           </div>
 
@@ -67,13 +65,11 @@ const page = () => {
             <Edit className="h-8 w-8" />
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Update Your Information
+              Fill in Your Details
             </h2>
 
             <p className="mt-1 text-sm text-gray-600 md:text-justify">
-              Enter your personal details, work experience, education, and
-              skills into the provided form. Our AI assists you in filling out
-              each section accurately and effectively.
+              Just enter your information—education, experience, skills—and let our AI suggest improvements and format it perfectly.
             </p>
           </div>
 
@@ -81,14 +77,11 @@ const page = () => {
             <Share2 className="h-8 w-8" />
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Share Your Resume
+              Download or Share
             </h2>
 
             <p className="mt-1 text-sm text-gray-600 md:text-justify">
-              After completing your resume, save it securely and generate a
-              shareable link. Easily update your information anytime and share
-              the link with potential employers or download it in a preferred
-              format.
+              Instantly download your resume or get a shareable link to send to recruiters. Update it anytime, from any device.
             </p>
           </div>
         </div>
@@ -100,7 +93,7 @@ const page = () => {
           >
             <div className="flex items-center justify-center">
               <ArrowBigUp className="h-6 w-6 mr-2" />
-              Get Started Today
+              Get Started
             </div>
           </Link>
         </div>
@@ -108,17 +101,13 @@ const page = () => {
       <footer className="backdrop-blur-md w-full">
         <div className="w-full mx-auto text-center max-w-screen-xl p-4 flex max-md:flex-col md:items-center md:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2024{" "}
+            © 2025{" "}
             <span className="hover:text-primary-500 hover:cursor-pointer">
-              Resumix™
+              Prasunet™
             </span>
             . All Rights Reserved.
           </span>
-          <Link href="https://github.com/Farhan9373" className="me-4 md:me-6">
-            <span className="hover:text-primary-500 mt-3 text-sm font-medium text-gray-500 sm:mt-0">
-              Made with <span className="">❤️</span> by Farhan Ahmad
-            </span>
-          </Link>
+          
         </div>
       </footer>
     </div>

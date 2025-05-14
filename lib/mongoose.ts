@@ -5,19 +5,17 @@ let isConnected = false;
 export const connectToDB = async () => {
   mongoose.set("strictQuery", true);
 
-  if (!process.env.MONGODB_URL) {
-    return console.error("MongoDB URL not found");
+  if (!process.env.MONGODB_URI) {
+    return console.error("MongoDB URI not found");
   }
 
-  if (isConnected) {
-    return;
-  }
+  if (isConnected) return;
 
   try {
-    await mongoose.connect(process.env.MONGODB_URL);
+    await mongoose.connect(process.env.MONGODB_URI);
     isConnected = true;
-    console.log("MongoDB connected");
+    console.log("✅ MongoDB connected");
   } catch (error) {
-    console.error(error);
+    console.error("❌ MongoDB connection error:", error);
   }
 };
